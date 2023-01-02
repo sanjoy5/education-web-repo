@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMUCT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header Section  -->
+    <section class="sub-header">
+        <!-- Navbar  -->
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo" />
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <!-- Navbar  -->
+
+        <h1>Contact Us</h1>
+
+    </section>
+    <!-- /Header Section  -->
+
+    <!-- Contact Us Page  -->
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.4482814606267!2d90.388413214863!3d23.873717589971356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c416dd65bd2f%3A0x3ee4d56c0682b45f!2z4Ka24Ka-4Kao4KeN4KakLeCmruCmvuCmsOCmv-Cnn-CmvuCmriDgpofgpongpqjgpr_gpq3gpr7gprDgp43gprjgpr_gpp_gpr8g4KaF4KasIOCmleCnjeCmsOCmv-Cnn-Cnh-Cmn-Cmv-CmrSDgpp_gp4fgppXgpqjgp4vgprLgppzgpr8!5e0!3m2!1sen!2sbd!4v1650816979774!5m2!1sen!2sbd"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <div class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Main Campus, 13 Gareeb-e-Nawaz Ave</h5>
+                        <p>Uttara Sector 12, Dhaka 1230.</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>02-8932368</h5>
+                        <p>Monday to Saturday, 10AM to 6PM.</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>info@smuctedubd.com</h5>
+                        <p>Email us your query.</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="email" placeholder="Enter Your Email">
+                    <input type="email" placeholder="Enter Your Subject">
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Us Page  -->
+
+
+
+
+    <!-- Footer Section  -->
+    <section class="footer">
+        <h4>Abuout Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, delectus quo ducimus, provident, sapiente
+            similique debitis <br> accusantium excepturi nostrum possimus reiciendis nulla sequi illo eligendi.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Sanjoy Sarker</p>
+    </section>
+    <!-- /Footer Section  -->
+
+
+
+
+    <!-- Scripts  -->
+    <script>
+        var navLinks = document.getElementById('navLinks')
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+</body>
+
+</html>

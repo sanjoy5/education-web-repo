@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMUCT</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Header Section  -->
+  <section class="sub-header">
+    <!-- Navbar  -->
+    <nav>
+      <a href="index.html">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!-- Navbar  -->
+
+    <h1>Our Certifiate & Online Programs For for 2022</h1>
+
+  </section>
+  <!-- /Header Section  -->
+
+
+  <!-- blog page content  -->
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="images/certificate.jpg" alt="">
+        <h2>Our Certifiate & Online Programs For for 2022</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eaque pariatur temporibus deserunt eveniet quae
+          harum amet, minus obcaecati nostrum at aperiam error labore quo, sequi sed, ipsam ipsa molestias sint!
+          Deleniti quod consectetur doloremque quisquam.
+        </p>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nemo ratione nihil placeat eaque sapiente quidem
+          porro sunt, iusto mollitia distinctio praesentium corporis eos quos nulla. Consectetur aliquam, tempora
+          explicabo soluta quis inventore autem asperiores? Nobis maiores optio accusamus velit natus excepturi! Cumque
+          tempore corrupti rem. Accusamus at eaque facilis illum reiciendis? Nesciunt, aperiam. Voluptas vitae ab labore
+          eligendi fuga! Deserunt quam blanditiis libero aperiam velit, perspiciatis qui non impedit!
+        </p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe beatae fugiat nihil quod quo accusantium
+          quibusdam minus dolorem assumenda eum voluptates, tenetur facere. Nesciunt commodi officiis, odit obcaecati
+          eaque eligendi facere modi aspernatur accusamus autem expedita possimus neque, dolor asperiores alias illo
+          eius consequuntur. Illo.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi optio vel, accusamus incidunt officiis
+          rerum, aperiam officia adipisci hic molestias a placeat sit beatae distinctio sapiente cum consequatur!
+          Perferendis ut, quas voluptate corrupti velit mollitia, modi possimus quam voluptatum reiciendis distinctio
+          quis! Explicabo magnam id officiis mollitia corrupti tempore commodi quasi dolorum, molestias asperiores
+          similique rerum, iusto tempora, culpa quam.</p>
+
+        <div class="comment-box">
+          <h3>Leave a comment</h3>
+
+          <form class="comment-form" action="">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your Comment"></textarea>
+
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+          </form>
+        </div>
+
+      </div>
+
+
+      <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Data Scince</span>
+          <span>28</span>
+        </div>
+        <div>
+          <span>Machine Learning</span>
+          <span>15</span>
+        </div>
+        <div>
+          <span>Computer Science</span>
+          <span>34</span>
+        </div>
+        <div>
+          <span>Fashion Design</span>
+          <span>42</span>
+        </div>
+        <div>
+          <span>Electrical Engineering</span>
+          <span>18</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer Section  -->
+  <section class="footer">
+    <h4>Abuout Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, delectus quo ducimus, provident, sapiente
+      similique debitis <br> accusantium excepturi nostrum possimus reiciendis nulla sequi illo eligendi.</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Sanjoy Sarker</p>
+  </section>
+  <!-- /Footer Section  -->
+
+
+
+
+  <!-- Scripts  -->
+  <script>
+    var navLinks = document.getElementById('navLinks')
+    function showMenu() {
+      navLinks.style.right = "0"
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px"
+    }
+
+  </script>
+</body>
+
+</html>
